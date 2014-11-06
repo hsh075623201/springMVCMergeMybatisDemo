@@ -1,2 +1,2 @@
-simpleSpringMVCDemo
+springMVCMergeMybatisDemo
 ===================
