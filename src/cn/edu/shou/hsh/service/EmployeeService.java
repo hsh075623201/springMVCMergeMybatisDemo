@@ -12,8 +12,8 @@ import cn.edu.shou.hsh.model.Employee;
 public class EmployeeService {
 	@Autowired
 	private EmployeeDao employeeDao;
-
 	public List<Employee> getEmployee(){
+		
 		return employeeDao.getEmployee();
 	}
 }

@@ -1,1 +1,1 @@
-×î¼òµ¥µÄspringmvc+mysql
+springmvc+mybatis+mysql

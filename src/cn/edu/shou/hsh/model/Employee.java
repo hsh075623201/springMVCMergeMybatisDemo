@@ -1,11 +1,10 @@
 package cn.edu.shou.hsh.model;
 
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 @Service
 public class Employee {
-	
+	private int id;
 	private String name;
 	private String number;
 	private String email;
@@ -26,6 +25,12 @@ public class Employee {
 	}
 	public void setNumber(String number) {
 		this.number = number;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }
